@@ -1,0 +1,273 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b1dbf9c7961a84cab2ad7ba3965bea, type: 3}
+  m_Name: PokokoroHistory
+  m_EditorClassIdentifier: 
+  AssetHistory:
+  - AssetName: bonusdeco100_1
+    ContentsHash: -727149408
+  - AssetName: bonusdeco101_1
+    ContentsHash: 367826118
+  - AssetName: bonusdeco102_1
+    ContentsHash: -555337536
+  - AssetName: bonusdeco103_1
+    ContentsHash: -1246732234
+  - AssetName: bonusdeco104_1
+    ContentsHash: -1652570015
+  - AssetName: bonusdeco105_1
+    ContentsHash: 376343997
+  - AssetName: bonusdeco106_1
+    ContentsHash: 380112991
+  - AssetName: bonusdeco107_1
+    ContentsHash: 195618282
+  - AssetName: bonusdeco108_1
+    ContentsHash: 2131754237
+  - AssetName: bonusdeco109_1
+    ContentsHash: -1155664815
+  - AssetName: bonusdeco10_1
+    ContentsHash: 653091782
+  - AssetName: bonusdeco110_1
+    ContentsHash: 1105879112
+  - AssetName: bonusdeco111_1
+    ContentsHash: -396972051
+  - AssetName: bonusdeco112_1
+    ContentsHash: -508263703
+  - AssetName: bonusdeco113_1
+    ContentsHash: 1000408304
+  - AssetName: bonusdeco114_1
+    ContentsHash: 114520136
+  - AssetName: bonusdeco115_1
+    ContentsHash: -803673558
+  - AssetName: bonusdeco116_1
+    ContentsHash: 1650778857
+  - AssetName: bonusdeco117_1
+    ContentsHash: -1415077342
+  - AssetName: bonusdeco118_1
+    ContentsHash: 1337793985
+  - AssetName: bonusdeco119_1
+    ContentsHash: 395412369
+  - AssetName: bonusdeco11_1
+    ContentsHash: -519152948
+  - AssetName: bonusdeco120_1
+    ContentsHash: -2101148358
+  - AssetName: bonusdeco121_1
+    ContentsHash: -1474122278
+  - AssetName: bonusdeco122_1
+    ContentsHash: -953452823
+  - AssetName: bonusdeco123_1
+    ContentsHash: 1162012369
+  - AssetName: bonusdeco124_1
+    ContentsHash: -1342566029
+  - AssetName: bonusdeco125_1
+    ContentsHash: -1838121688
+  - AssetName: bonusdeco126_1
+    ContentsHash: -889911490
+  - AssetName: bonusdeco127_1
+    ContentsHash: -1597562161
+  - AssetName: bonusdeco12_1
+    ContentsHash: 2076250788
+  - AssetName: bonusdeco13_1
+    ContentsHash: 1925558626
+  - AssetName: bonusdeco14_1
+    ContentsHash: -68994265
+  - AssetName: bonusdeco15_1
+    ContentsHash: -272783933
+  - AssetName: bonusdeco16_1
+    ContentsHash: 404869921
+  - AssetName: bonusdeco17_1
+    ContentsHash: -535152450
+  - AssetName: bonusdeco18_1
+    ContentsHash: 429750129
+  - AssetName: bonusdeco19_1
+    ContentsHash: -3360396
+  - AssetName: bonusdeco1_1
+    ContentsHash: 748782854
+  - AssetName: bonusdeco1_2
+    ContentsHash: -476000423
+  - AssetName: bonusdeco1_3
+    ContentsHash: 436849807
+  - AssetName: bonusdeco20_1
+    ContentsHash: 365570684
+  - AssetName: bonusdeco21_1
+    ContentsHash: 904033558
+  - AssetName: bonusdeco22_1
+    ContentsHash: 1223520302
+  - AssetName: bonusdeco23_1
+    ContentsHash: -967900674
+  - AssetName: bonusdeco24_1
+    ContentsHash: -2008205372
+  - AssetName: bonusdeco25_1
+    ContentsHash: -760409445
+  - AssetName: bonusdeco26_1
+    ContentsHash: -17976501
+  - AssetName: bonusdeco27_1
+    ContentsHash: -1516304369
+  - AssetName: bonusdeco28_1
+    ContentsHash: 216303402
+  - AssetName: bonusdeco29_1
+    ContentsHash: 2076711417
+  - AssetName: bonusdeco2_1
+    ContentsHash: 1272128559
+  - AssetName: bonusdeco30_1
+    ContentsHash: 730796373
+  - AssetName: bonusdeco31_1
+    ContentsHash: 297045374
+  - AssetName: bonusdeco32_1
+    ContentsHash: -2034628402
+  - AssetName: bonusdeco33_1
+    ContentsHash: -51697039
+  - AssetName: bonusdeco34_1
+    ContentsHash: -209587524
+  - AssetName: bonusdeco35_1
+    ContentsHash: 678614144
+  - AssetName: bonusdeco36_1
+    ContentsHash: -1546124631
+  - AssetName: bonusdeco37_1
+    ContentsHash: -547045618
+  - AssetName: bonusdeco38_1
+    ContentsHash: -688286701
+  - AssetName: bonusdeco39_1
+    ContentsHash: 845960420
+  - AssetName: bonusdeco3_1
+    ContentsHash: 785285570
+  - AssetName: bonusdeco40_1
+    ContentsHash: 715687979
+  - AssetName: bonusdeco41_1
+    ContentsHash: 2036075175
+  - AssetName: bonusdeco42_1
+    ContentsHash: -208716543
+  - AssetName: bonusdeco43_1
+    ContentsHash: 1687512990
+  - AssetName: bonusdeco44_1
+    ContentsHash: -635931349
+  - AssetName: bonusdeco45_1
+    ContentsHash: 1296931329
+  - AssetName: bonusdeco46_1
+    ContentsHash: -1683046642
+  - AssetName: bonusdeco47_1
+    ContentsHash: -1809261654
+  - AssetName: bonusdeco48_1
+    ContentsHash: 1002968706
+  - AssetName: bonusdeco49_1
+    ContentsHash: 2013483417
+  - AssetName: bonusdeco4_1
+    ContentsHash: -1194237914
+  - AssetName: bonusdeco50_1
+    ContentsHash: -740863646
+  - AssetName: bonusdeco51_1
+    ContentsHash: -1544314262
+  - AssetName: bonusdeco52_1
+    ContentsHash: -519010067
+  - AssetName: bonusdeco53_1
+    ContentsHash: -172975893
+  - AssetName: bonusdeco54_1
+    ContentsHash: -48394577
+  - AssetName: bonusdeco55_1
+    ContentsHash: -865386958
+  - AssetName: bonusdeco56_1
+    ContentsHash: -1668766711
+  - AssetName: bonusdeco57_1
+    ContentsHash: -1948424176
+  - AssetName: bonusdeco58_1
+    ContentsHash: -722655871
+  - AssetName: bonusdeco59_1
+    ContentsHash: 1908780327
+  - AssetName: bonusdeco5_1
+    ContentsHash: -2088272582
+  - AssetName: bonusdeco60_1
+    ContentsHash: -1687363499
+  - AssetName: bonusdeco61_1
+    ContentsHash: 1339825878
+  - AssetName: bonusdeco62_1
+    ContentsHash: -246070193
+  - AssetName: bonusdeco63_1
+    ContentsHash: -1404195289
+  - AssetName: bonusdeco64_1
+    ContentsHash: 151510003
+  - AssetName: bonusdeco65_1
+    ContentsHash: -969590874
+  - AssetName: bonusdeco66_1
+    ContentsHash: -141643440
+  - AssetName: bonusdeco67_1
+    ContentsHash: -512057432
+  - AssetName: bonusdeco68_1
+    ContentsHash: 202780889
+  - AssetName: bonusdeco69_1
+    ContentsHash: 1925508393
+  - AssetName: bonusdeco6_1
+    ContentsHash: 949178679
+  - AssetName: bonusdeco70_1
+    ContentsHash: -1497576393
+  - AssetName: bonusdeco71_1
+    ContentsHash: 1038073915
+  - AssetName: bonusdeco72_1
+    ContentsHash: 960530859
+  - AssetName: bonusdeco73_1
+    ContentsHash: 224639365
+  - AssetName: bonusdeco74_1
+    ContentsHash: 813472966
+  - AssetName: bonusdeco75_1
+    ContentsHash: -1160624846
+  - AssetName: bonusdeco76_1
+    ContentsHash: -625620333
+  - AssetName: bonusdeco77_1
+    ContentsHash: -945863391
+  - AssetName: bonusdeco78_1
+    ContentsHash: -938040523
+  - AssetName: bonusdeco79_1
+    ContentsHash: -1336554042
+  - AssetName: bonusdeco7_1
+    ContentsHash: -1816833554
+  - AssetName: bonusdeco80_1
+    ContentsHash: -1646419092
+  - AssetName: bonusdeco81_1
+    ContentsHash: -895967313
+  - AssetName: bonusdeco82_1
+    ContentsHash: 1194485408
+  - AssetName: bonusdeco83_1
+    ContentsHash: 1071966590
+  - AssetName: bonusdeco84_1
+    ContentsHash: 1672541257
+  - AssetName: bonusdeco85_1
+    ContentsHash: -1236861550
+  - AssetName: bonusdeco86_1
+    ContentsHash: -779717191
+  - AssetName: bonusdeco87_1
+    ContentsHash: -1060695418
+  - AssetName: bonusdeco88_1
+    ContentsHash: 2059842359
+  - AssetName: bonusdeco89_1
+    ContentsHash: -1195024759
+  - AssetName: bonusdeco8_1
+    ContentsHash: -880340897
+  - AssetName: bonusdeco90_1
+    ContentsHash: 260451985
+  - AssetName: bonusdeco91_1
+    ContentsHash: 1627111209
+  - AssetName: bonusdeco92_1
+    ContentsHash: 1334197990
+  - AssetName: bonusdeco93_1
+    ContentsHash: 1742452773
+  - AssetName: bonusdeco94_1
+    ContentsHash: 1187556521
+  - AssetName: bonusdeco95_1
+    ContentsHash: 1388401174
+  - AssetName: bonusdeco96_1
+    ContentsHash: -63127700
+  - AssetName: bonusdeco97_1
+    ContentsHash: -1911963356
+  - AssetName: bonusdeco98_1
+    ContentsHash: 342133392
+  - AssetName: bonusdeco99_1
+    ContentsHash: 445171771
+  - AssetName: bonusdeco9_1
+    ContentsHash: -1075113196

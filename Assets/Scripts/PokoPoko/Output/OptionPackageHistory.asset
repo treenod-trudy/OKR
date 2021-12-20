@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9b1dbf9c7961a84cab2ad7ba3965bea, type: 3}
+  m_Name: OptionPackageHistory
+  m_EditorClassIdentifier: 
+  AssetHistory:
+  - AssetName: en-images/background
+    ContentsHash: -886996897
+  - AssetName: en-images/button1
+    ContentsHash: -1239946061
+  - AssetName: en-images/button2
+    ContentsHash: -1879845589
+  - AssetName: en-images/button3
+    ContentsHash: 1908440042
+  - AssetName: en-images/button_off
+    ContentsHash: 1272359515
+  - AssetName: en-images/button_off_text1
+    ContentsHash: 856397877
+  - AssetName: en-images/button_off_text2
+    ContentsHash: -602939079
+  - AssetName: en-images/button_off_text3
+    ContentsHash: 182470815
+  - AssetName: en-images/buy_button_off
+    ContentsHash: 1869402879
+  - AssetName: en-images/buy_button_on
+    ContentsHash: 1626909150
+  - AssetName: en-images/frame1
+    ContentsHash: 783287478
+  - AssetName: en-images/frame2
+    ContentsHash: 564633106
+  - AssetName: en-images/frame3
+    ContentsHash: -357771120
+  - AssetName: en-images/frame_text1
+    ContentsHash: 1664408739
+  - AssetName: en-images/frame_text2
+    ContentsHash: -1785583561
+  - AssetName: en-images/frame_text3
+    ContentsHash: -1520424435
+  - AssetName: en-images/help_button
+    ContentsHash: 345771363
+  - AssetName: en-images/option1
+    ContentsHash: 1622178264
+  - AssetName: en-images/option2
+    ContentsHash: 95717845
+  - AssetName: en-images/option3
+    ContentsHash: -1181866948
+  - AssetName: en-images/pokota
+    ContentsHash: 1677391421
+  - AssetName: ja-images/background
+    ContentsHash: -1852165756
+  - AssetName: ja-images/button1
+    ContentsHash: -1887680865
+  - AssetName: ja-images/button2
+    ContentsHash: -1673061955
+  - AssetName: ja-images/button3
+    ContentsHash: 1451085175
+  - AssetName: ja-images/button_off
+    ContentsHash: 1272359515
+  - AssetName: ja-images/button_off_text1
+    ContentsHash: -813026091
+  - AssetName: ja-images/button_off_text2
+    ContentsHash: 142179411
+  - AssetName: ja-images/button_off_text3
+    ContentsHash: 778697137
+  - AssetName: ja-images/buy_button_off
+    ContentsHash: 120845484
+  - AssetName: ja-images/buy_button_on
+    ContentsHash: 1626909150
+  - AssetName: ja-images/frame1
+    ContentsHash: 783287478
+  - AssetName: ja-images/frame2
+    ContentsHash: 564633106
+  - AssetName: ja-images/frame3
+    ContentsHash: -357771120
+  - AssetName: ja-images/frame_text1
+    ContentsHash: -1402681629
+  - AssetName: ja-images/frame_text2
+    ContentsHash: -1857960968
+  - AssetName: ja-images/frame_text3
+    ContentsHash: 1620824767
+  - AssetName: ja-images/help_button
+    ContentsHash: 345771363
+  - AssetName: ja-images/option1
+    ContentsHash: -1664378994
+  - AssetName: ja-images/option2
+    ContentsHash: -1182234296
+  - AssetName: ja-images/option3
+    ContentsHash: -1689091380
+  - AssetName: ja-images/pokota
+    ContentsHash: -680036498
+  - AssetName: th-images/background
+    ContentsHash: 697656791
+  - AssetName: th-images/button1
+    ContentsHash: -1907997457
+  - AssetName: th-images/button2
+    ContentsHash: 554870105
+  - AssetName: th-images/button3
+    ContentsHash: 1848141913
+  - AssetName: th-images/button_off
+    ContentsHash: 1272359515
+  - AssetName: th-images/button_off_text1
+    ContentsHash: 1426479274
+  - AssetName: th-images/button_off_text2
+    ContentsHash: -474322509
+  - AssetName: th-images/button_off_text3
+    ContentsHash: 1315142645
+  - AssetName: th-images/buy_button_off
+    ContentsHash: -2059320849
+  - AssetName: th-images/buy_button_on
+    ContentsHash: 1626909150
+  - AssetName: th-images/frame1
+    ContentsHash: 783287478
+  - AssetName: th-images/frame2
+    ContentsHash: 564633106
+  - AssetName: th-images/frame3
+    ContentsHash: -357771120
+  - AssetName: th-images/frame_text1
+    ContentsHash: -1542486309
+  - AssetName: th-images/frame_text2
+    ContentsHash: -1175031183
+  - AssetName: th-images/frame_text3
+    ContentsHash: 122268802
+  - AssetName: th-images/help_button
+    ContentsHash: 345771363
+  - AssetName: th-images/option1
+    ContentsHash: 1622178264
+  - AssetName: th-images/option2
+    ContentsHash: 95717845
+  - AssetName: th-images/option3
+    ContentsHash: -828614188
+  - AssetName: th-images/pokota
+    ContentsHash: -949903971
+  - AssetName: tw-images/background
+    ContentsHash: 545252138
+  - AssetName: tw-images/button1
+    ContentsHash: 1779151473
+  - AssetName: tw-images/button2
+    ContentsHash: -935976151
+  - AssetName: tw-images/button3
+    ContentsHash: -1485663800
+  - AssetName: tw-images/button_off
+    ContentsHash: 1272359515
+  - AssetName: tw-images/button_off_text1
+    ContentsHash: 906132638
+  - AssetName: tw-images/button_off_text2
+    ContentsHash: -697540231
+  - AssetName: tw-images/button_off_text3
+    ContentsHash: -323649056
+  - AssetName: tw-images/buy_button_off
+    ContentsHash: -738473034
+  - AssetName: tw-images/buy_button_on
+    ContentsHash: 1626909150
+  - AssetName: tw-images/frame1
+    ContentsHash: 783287478
+  - AssetName: tw-images/frame2
+    ContentsHash: 564633106
+  - AssetName: tw-images/frame3
+    ContentsHash: -357771120
+  - AssetName: tw-images/frame_text1
+    ContentsHash: -1298528735
+  - AssetName: tw-images/frame_text2
+    ContentsHash: 1864019427
+  - AssetName: tw-images/frame_text3
+    ContentsHash: 2085148967
+  - AssetName: tw-images/help_button
+    ContentsHash: 345771363
+  - AssetName: tw-images/option1
+    ContentsHash: 1622178264
+  - AssetName: tw-images/option2
+    ContentsHash: 95717845
+  - AssetName: tw-images/option3
+    ContentsHash: -828614188
+  - AssetName: tw-images/pokota
+    ContentsHash: -882707719

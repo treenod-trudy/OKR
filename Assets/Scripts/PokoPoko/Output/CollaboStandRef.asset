@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bc4dfdc5b7cf9ab4eb32640e48ba7ac5, type: 3}
+  m_Name: CollaboStandRef
+  m_EditorClassIdentifier: 
+  Settings:
+    m_AlphaSource: 1
+    m_MipMapMode: 0
+    m_EnableMipMap: 0
+    m_FadeOut: 0
+    m_BorderMipMap: 0
+    m_MipMapsPreserveCoverage: 0
+    m_AlphaTestReferenceValue: 0.5
+    m_MipMapFadeDistanceStart: 1
+    m_MipMapFadeDistanceEnd: 3
+    m_ConvertToNormalMap: 0
+    m_HeightScale: 0.25
+    m_NormalMapFilter: 0
+    m_IsReadable: 1
+    m_StreamingMipmaps: 0
+    m_StreamingMipmapsPriority: 0
+    m_NPOTScale: 0
+    m_sRGBTexture: 1
+    m_SpriteMode: 0
+    m_SpriteExtrude: 1
+    m_SpriteMeshType: 1
+    m_Alignment: 0
+    m_SpritePivot: {x: 0.5, y: 0.5}
+    m_SpritePixelsToUnits: 100
+    m_SpriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    m_SpriteGenerateFallbackPhysicsShape: 1
+    m_GenerateCubemap: 6
+    m_CubemapConvolution: 0
+    m_SeamlessCubemap: 0
+    m_AlphaIsTransparency: 0
+    m_SpriteTessellationDetail: -1
+    m_TextureType: 0
+    m_TextureShape: 1
+    m_SingleChannelComponent: 0
+    m_FilterMode: -1
+    m_Aniso: 1
+    m_MipBias: -100
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+    m_NormalMap: 0
+    m_TextureFormat: 1
+    m_MaxTextureSize: 2048
+    m_Lightmap: 0
+    m_CompressionQuality: 50
+    m_LinearTexture: 0
+    m_GrayScaleToAlpha: 0
+    m_RGBM: 0
+    m_CubemapConvolutionSteps: 0
+    m_CubemapConvolutionExponent: 0
+    m_MaxTextureSizeSet: 0
+    m_CompressionQualitySet: 0
+    m_TextureFormatSet: 0
+  PlatformSettings:
+    m_Name: DefaultTexturePlatform
+    m_Overridden: 0
+    m_MaxTextureSize: 1024
+    m_ResizeAlgorithm: 0
+    m_TextureFormat: -1
+    m_TextureCompression: 0
+    m_CompressionQuality: 50
+    m_CrunchedCompression: 0
+    m_AllowsAlphaSplitting: 0
+    m_AndroidETC2FallbackOverride: 0
