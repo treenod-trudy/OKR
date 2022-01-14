@@ -1,0 +1,26 @@
+///작성일자: #DATE#
+///작성자: #AUTHOR#
+
+using UnityEngine;
+using UnityEditor;
+
+public class #SCRIPTNAME# : EditorWindow
+{
+    private static #SCRIPTNAME# editorWindow;
+
+    [MenuItem("Window/CustomMenu/CustomEditor")]
+    static void OpenWindow()
+    {
+        editorWindow = (#SCRIPTNAME#)GetWindow(typeof(#SCRIPTNAME#), false);
+    }
+
+    private void OnEnable()
+    {
+        editorWindow = this;
+    }
+
+    private void OnGUI()
+    {
+
+    }
+}
