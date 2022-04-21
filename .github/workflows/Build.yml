@@ -32,5 +32,5 @@ jobs:
           projectPath: ${{ matrix.projectPath }}
       - uses: actions/upload-artifact@v2
         with:
-          name: Build-${{ matrix.targetPlatform }}
-          path: ${{ matrix.projectPath }} #build/${{ matrix.targetPlatform }}
+          name: Build
+          path: build
