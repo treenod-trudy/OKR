@@ -13,7 +13,7 @@ jobs:
           - iOS # Build an iOS player.
           - Android # Build an Android .apk standalone app.
         projectPath:
-          - OKR
+          - ${{ matrix.projectPath }}
     steps:
       - uses: actions/checkout@v2
         with:
