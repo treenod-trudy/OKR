@@ -12,7 +12,8 @@ jobs:
         targetPlatform:
           - iOS # Build an iOS player.
           - Android # Build an Android .apk standalone app.
-        projectPath: ${{ matrix.projectPath }}
+        projectPath:
+          - test-project
     steps:
       - uses: actions/checkout@v2
         with:
