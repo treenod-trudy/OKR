@@ -10,8 +10,7 @@ jobs:
       fail-fast: false
       matrix:
         targetPlatform:
-          - iOS # Build an iOS player.
-          - Android # Build an Android .apk standalone app.
+          - Android
         projectPath:
           - .
     steps:
