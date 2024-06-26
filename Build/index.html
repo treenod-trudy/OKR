@@ -9,28 +9,39 @@
     <script src="https://accounts.google.com/gsi/client" async defer></script>
     <script type="text/javascript">
       function handleCredentialResponse(response) {
-        // Handle the ID token received from Google Sign-In
         console.log("Encoded JWT ID token: " + response.credential);
-        // Send the token to Unity
         SendMessage('GAuthWebListener', 'OnGoogleSignIn', response.credential);
       }
 
-      function initGoogleSignIn() {
+      function initializeGoogleSignIn() {
         google.accounts.id.initialize({
           client_id: '2010814760-hs8c18nr6t75gvki8gu78b0ik0rarmpc.apps.googleusercontent.com',
-          callback: handleCredentialResponse,
-          prompt_parent_id: 'g_id_onload' // This is the ID of the parent element
+          callback: handleCredentialResponse
         });
+      }
+
+      function renderCustomButton() {
         google.accounts.id.renderButton(
-          document.getElementById('buttonDiv'),
-          { theme: 'outline', size: 'large' }
+          document.getElementById('buttonDiv'), 
+          { 
+            theme: 'outline', 
+            size: 'large',
+            type: 'icon',
+            shape: 'rectangular',
+            text: 'signin_with',
+            logo_alignment: 'left'
+          }
         );
-        google.accounts.id.prompt(); // Display the One Tap prompt
       }
 
       window.onload = function() {
-        initGoogleSignIn();
+        initializeGoogleSignIn();
+        renderCustomButton();
       };
+
+      function promptGoogleSignIn() {
+        google.accounts.id.prompt();
+      }
     </script>
   </head>
   <body>
@@ -49,6 +60,8 @@
         <div id="unity-build-title">core-package-template</div>
       </div>
     </div>
+    <div id="buttonDiv"></div>
+    <button onclick="promptGoogleSignIn()">Sign In with Google</button>
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
