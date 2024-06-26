@@ -1310,7 +1310,7 @@ function _InitializeGoogleSignIn() {
   use_fedcm_for_prompt: true,
   callback: function(response) {
    var id_token = response.credential;
-   var decoded = window.jwt_decode(id_token);
+   var decoded = jwt_decode(id_token);
    var email = decoded.email;
    SendMessage("GAuthWebListener", "OnGoogleSignIn", email);
    console.log(email);
