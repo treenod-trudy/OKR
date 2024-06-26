@@ -6,6 +6,31 @@
     <title>Unity WebGL Player | core-package-template</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script type="text/javascript">
+      function handleCredentialResponse(response) {
+        // Handle the ID token received from Google Sign-In
+        console.log("Encoded JWT ID token: " + response.credential);
+        // Send the token to Unity
+        SendMessage('GoogleAuthManager', 'OnGoogleSignIn', response.credential);
+      }
+
+      function initGoogleSignIn() {
+        google.accounts.id.initialize({
+          client_id: 'YOUR_CLIENT_ID',
+          callback: handleCredentialResponse
+        });
+        google.accounts.id.renderButton(
+          document.getElementById('buttonDiv'),
+          { theme: 'outline', size: 'large' }
+        );
+        google.accounts.id.prompt(); // Display the One Tap prompt
+      }
+
+      window.onload = function() {
+        initGoogleSignIn();
+      };
+    </script>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
