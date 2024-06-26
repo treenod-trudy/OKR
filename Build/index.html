@@ -12,13 +12,14 @@
         // Handle the ID token received from Google Sign-In
         console.log("Encoded JWT ID token: " + response.credential);
         // Send the token to Unity
-        SendMessage('GoogleAuthManager', 'OnGoogleSignIn', response.credential);
+        SendMessage('GAuthWebListener', 'OnGoogleSignIn', response.credential);
       }
 
       function initGoogleSignIn() {
         google.accounts.id.initialize({
-          client_id: 'YOUR_CLIENT_ID',
-          callback: handleCredentialResponse
+          client_id: '2010814760-hs8c18nr6t75gvki8gu78b0ik0rarmpc.apps.googleusercontent.com',
+          callback: handleCredentialResponse,
+          prompt_parent_id: 'g_id_onload' // This is the ID of the parent element
         });
         google.accounts.id.renderButton(
           document.getElementById('buttonDiv'),
