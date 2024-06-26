@@ -1310,8 +1310,10 @@ function _InitializeGoogleSignIn() {
   use_fedcm_for_prompt: true,
   callback: function(response) {
    var id_token = response.credential;
-   SendMessage("GAuthWebListener", "OnGoogleSignIn", id_token);
-   console.log(id_token);
+   var decoded = jwt_decode(id_token);
+   var email = decoded.email;
+   SendMessage("GAuthWebListener", "OnGoogleSignIn", email);
+   console.log(email);
   }
  });
  google.accounts.id.prompt();
